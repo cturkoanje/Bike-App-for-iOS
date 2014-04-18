@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+{
+    UIWebView *mainWebView;
+    NSMutableDictionary *settings;
+}
+@property (weak, nonatomic) IBOutlet UIWebView *mainWebView;
 
 @end

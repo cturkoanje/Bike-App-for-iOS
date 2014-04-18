@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "TOWebViewController.h"
 
 @interface FirstViewController ()
 
@@ -18,6 +19,42 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    if ([[NSFileManager defaultManager] fileExistsAtPath:[self dataFilePath]]) {
+        settings = [[NSMutableDictionary alloc] initWithContentsOfFile:[self dataFilePath]];
+        
+        NSString *email = [settings valueForKey:@"email"];
+        NSString *password = [settings valueForKey:@"password"];
+        
+        NSURL *websiteUrl = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.bikeapp.me/app/ios/?email=%@&password=%@", email, password]];
+        
+        NSURLRequest *urlRequest = [NSURLRequest requestWithURL:websiteUrl];
+        [_mainWebView loadRequest:urlRequest];
+        
+        
+    }
+
+
+}
+-(void)viewDidAppear:(BOOL)animated
+{
+    if (![[NSFileManager defaultManager] fileExistsAtPath:[self dataFilePath]])
+        [self openLoginPage];
+}
+
+-(void)openLoginPage
+{
+    NSURL *url = [NSURL URLWithString:@"http://api.bikeapp.me/app_ios/"];
+    TOWebViewController *webViewController = [[TOWebViewController alloc] initWithURL:url];
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:webViewController] animated:YES completion:nil];
+}
+
+
+- (NSString *)dataFilePath {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(
+                                                         NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    return [documentsDirectory stringByAppendingPathComponent:@"settings.plist"];
 }
 
 - (void)didReceiveMemoryWarning

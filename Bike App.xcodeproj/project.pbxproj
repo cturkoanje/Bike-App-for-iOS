@@ -22,6 +22,13 @@
 		83BC42A618FF2D7F00AB1180 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC428518FF2D7F00AB1180 /* UIKit.framework */; };
 		83BC42AE18FF2D7F00AB1180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83BC42AC18FF2D7F00AB1180 /* InfoPlist.strings */; };
 		83BC42B018FF2D7F00AB1180 /* Bike_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC42AF18FF2D7F00AB1180 /* Bike_AppTests.m */; };
+		83BC42BA18FF2F5900AB1180 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC42B918FF2F5900AB1180 /* MapKit.framework */; };
+		83BC42BC18FF2F5F00AB1180 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC42BB18FF2F5F00AB1180 /* CoreLocation.framework */; };
+		83DD796F18FF6FA8000D4AFB /* TOWebViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83DD795E18FF6FA8000D4AFB /* TOWebViewControllerLocalizable.strings */; };
+		83DD797018FF6FA8000D4AFB /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD796618FF6FA8000D4AFB /* TOActivityChrome.m */; };
+		83DD797118FF6FA8000D4AFB /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD796818FF6FA8000D4AFB /* TOActivitySafari.m */; };
+		83DD797218FF6FA8000D4AFB /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD796A18FF6FA8000D4AFB /* TOWebViewController.m */; };
+		83DD797318FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD796C18FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,25 @@
 		83BC42AB18FF2D7F00AB1180 /* Bike AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bike AppTests-Info.plist"; sourceTree = "<group>"; };
 		83BC42AD18FF2D7F00AB1180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83BC42AF18FF2D7F00AB1180 /* Bike_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bike_AppTests.m; sourceTree = "<group>"; };
+		83BC42B918FF2F5900AB1180 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83BC42BB18FF2F5F00AB1180 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83BC42BF18FF322000AB1180 /* Bike App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Bike App.entitlements"; sourceTree = "<group>"; };
+		83DD795F18FF6FA8000D4AFB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		83DD796018FF6FA8000D4AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		83DD796118FF6FA8000D4AFB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		83DD796218FF6FA8000D4AFB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		83DD796318FF6FA8000D4AFB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		83DD796418FF6FA8000D4AFB /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		83DD796518FF6FA8000D4AFB /* TOActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityChrome.h; sourceTree = "<group>"; };
+		83DD796618FF6FA8000D4AFB /* TOActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityChrome.m; sourceTree = "<group>"; };
+		83DD796718FF6FA8000D4AFB /* TOActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivitySafari.h; sourceTree = "<group>"; };
+		83DD796818FF6FA8000D4AFB /* TOActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivitySafari.m; sourceTree = "<group>"; };
+		83DD796918FF6FA8000D4AFB /* TOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOWebViewController.h; sourceTree = "<group>"; };
+		83DD796A18FF6FA8000D4AFB /* TOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOWebViewController.m; sourceTree = "<group>"; };
+		83DD796B18FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		83DD796C18FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		83DD796D18FF6FA8000D4AFB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		83DD796E18FF6FA8000D4AFB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BC42BC18FF2F5F00AB1180 /* CoreLocation.framework in Frameworks */,
+				83BC42BA18FF2F5900AB1180 /* MapKit.framework in Frameworks */,
 				83BC428418FF2D7F00AB1180 /* CoreGraphics.framework in Frameworks */,
 				83BC428618FF2D7F00AB1180 /* UIKit.framework in Frameworks */,
 				83BC428218FF2D7F00AB1180 /* Foundation.framework in Frameworks */,
@@ -85,6 +113,7 @@
 		83BC427518FF2D7F00AB1180 = {
 			isa = PBXGroup;
 			children = (
+				83DD795D18FF6FA8000D4AFB /* TOWebViewController */,
 				83BC428718FF2D7F00AB1180 /* Bike App */,
 				83BC42A918FF2D7F00AB1180 /* Bike AppTests */,
 				83BC428018FF2D7F00AB1180 /* Frameworks */,
@@ -104,6 +133,8 @@
 		83BC428018FF2D7F00AB1180 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83BC42BB18FF2F5F00AB1180 /* CoreLocation.framework */,
+				83BC42B918FF2F5900AB1180 /* MapKit.framework */,
 				83BC428118FF2D7F00AB1180 /* Foundation.framework */,
 				83BC428318FF2D7F00AB1180 /* CoreGraphics.framework */,
 				83BC428518FF2D7F00AB1180 /* UIKit.framework */,
@@ -115,6 +146,7 @@
 		83BC428718FF2D7F00AB1180 /* Bike App */ = {
 			isa = PBXGroup;
 			children = (
+				83BC42BF18FF322000AB1180 /* Bike App.entitlements */,
 				83BC429018FF2D7F00AB1180 /* AppDelegate.h */,
 				83BC429118FF2D7F00AB1180 /* AppDelegate.m */,
 				83BC429318FF2D7F00AB1180 /* Main.storyboard */,
@@ -155,6 +187,22 @@
 				83BC42AC18FF2D7F00AB1180 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83DD795D18FF6FA8000D4AFB /* TOWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83DD795E18FF6FA8000D4AFB /* TOWebViewControllerLocalizable.strings */,
+				83DD796518FF6FA8000D4AFB /* TOActivityChrome.h */,
+				83DD796618FF6FA8000D4AFB /* TOActivityChrome.m */,
+				83DD796718FF6FA8000D4AFB /* TOActivitySafari.h */,
+				83DD796818FF6FA8000D4AFB /* TOActivitySafari.m */,
+				83DD796918FF6FA8000D4AFB /* TOWebViewController.h */,
+				83DD796A18FF6FA8000D4AFB /* TOWebViewController.m */,
+				83DD796B18FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.h */,
+				83DD796C18FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.m */,
+			);
+			path = TOWebViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +252,17 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Christian Turkoanje";
 				TargetAttributes = {
+					83BC427D18FF2D7F00AB1180 = {
+						DevelopmentTeam = BLNK2KSMXB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Passbook = {
+								enabled = 0;
+							};
+						};
+					};
 					83BC42A118FF2D7F00AB1180 = {
 						TestTargetID = 83BC427D18FF2D7F00AB1180;
 					};
@@ -216,6 +275,13 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				es,
+				ja,
+				ko,
+				pl,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 83BC427518FF2D7F00AB1180;
 			productRefGroup = 83BC427F18FF2D7F00AB1180 /* Products */;
@@ -233,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DD796F18FF6FA8000D4AFB /* TOWebViewControllerLocalizable.strings in Resources */,
 				83BC429D18FF2D7F00AB1180 /* Images.xcassets in Resources */,
 				83BC428C18FF2D7F00AB1180 /* InfoPlist.strings in Resources */,
 				83BC429518FF2D7F00AB1180 /* Main.storyboard in Resources */,
@@ -255,8 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BC429B18FF2D7F00AB1180 /* SecondViewController.m in Sources */,
+				83DD797318FF6FA8000D4AFB /* UIImage+TOWebViewControllerIcons.m in Sources */,
+				83DD797218FF6FA8000D4AFB /* TOWebViewController.m in Sources */,
 				83BC429218FF2D7F00AB1180 /* AppDelegate.m in Sources */,
 				83BC429818FF2D7F00AB1180 /* FirstViewController.m in Sources */,
+				83DD797118FF6FA8000D4AFB /* TOActivitySafari.m in Sources */,
+				83DD797018FF6FA8000D4AFB /* TOActivityChrome.m in Sources */,
 				83BC428E18FF2D7F00AB1180 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +373,21 @@
 				83BC42AD18FF2D7F00AB1180 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83DD795E18FF6FA8000D4AFB /* TOWebViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DD795F18FF6FA8000D4AFB /* de */,
+				83DD796018FF6FA8000D4AFB /* en */,
+				83DD796118FF6FA8000D4AFB /* es */,
+				83DD796218FF6FA8000D4AFB /* ja */,
+				83DD796318FF6FA8000D4AFB /* ko */,
+				83DD796418FF6FA8000D4AFB /* pl */,
+				83DD796D18FF6FA8000D4AFB /* zh-Hans */,
+				83DD796E18FF6FA8000D4AFB /* zh-Hant */,
+			);
+			name = TOWebViewControllerLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -382,10 +468,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bike App/Bike App-Prefix.pch";
 				INFOPLIST_FILE = "Bike App/Bike App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,10 +484,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bike App/Bike App-Prefix.pch";
 				INFOPLIST_FILE = "Bike App/Bike App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -462,6 +554,7 @@
 				83BC42B518FF2D7F00AB1180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83BC42B618FF2D7F00AB1180 /* Build configuration list for PBXNativeTarget "Bike AppTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +563,7 @@
 				83BC42B818FF2D7F00AB1180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
